@@ -1,23 +1,23 @@
 require "test_helper"
 
-class IndexControllerTest < ActionDispatch::IntegrationTest
+class IndexesControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get index_new_url
+    get indexes_new_url
     assert_response :success
   end
 
   test "should get show" do
-    get index_show_url
+    get indexes_show_url
     assert_response :success
   end
 
   test "should get edit" do
-    get index_edit_url
+    get indexes_edit_url
     assert_response :success
   end
 
   test "should get destroy" do
-    get index_destroy_url
+    get indexes_destroy_url
     assert_response :success
   end
 end
