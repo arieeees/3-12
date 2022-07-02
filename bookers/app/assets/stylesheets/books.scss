@@ -7,6 +7,15 @@
   box-sizing: border-box;
 }
 
+table {
+  margin-left: 30px;
+}
+
+.link {
+  margin: 30px;
+  
+}
+
 h2 {
   display: block;
   margin-left: 30px;
@@ -29,9 +38,15 @@ form {
   
 }
 
-.create-button {
+.Bottun {
   display: block;
   margin-top: 10px;
-  width: 90px;
-  height: 25px;
+}
+
+th {
+  margin-left: 10px;
+}
+
+td {
+  margin: 5px;
 }
