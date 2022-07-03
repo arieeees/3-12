@@ -1,7 +1,7 @@
 <h1>Editing Book</h1>
 
-<%= form_with(model:@book, local: true) do |form| %> <!--バリデーションチェック-->
-  <% if @book.errors.any? %> <!--ここからエラ〜メッセージ-->
+<%= form_with(model:@book, local: true) do |form| %>
+  <% if @book.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@book.errors.count, "error") %> prohibited this product from being saved:</h2>
 
